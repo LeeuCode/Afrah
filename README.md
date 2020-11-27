@@ -1,0 +1,2 @@
+# Afrah
+Studio Mangement system
