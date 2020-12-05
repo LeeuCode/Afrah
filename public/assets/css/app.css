@@ -1,0 +1,135 @@
+
+@font-face{
+    font-family:'Helveticaneuelt';
+    src:url('../fonts/helveticaneuelt-arabic-55-roman.ttf');
+    font-weight:normal;
+    font-style:normal
+}
+
+* {
+    font-family: 'Helveticaneuelt';
+}
+body {
+    direction: rtl;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Helveticaneuelt';
+}
+.dropdown-menu.dropdown-close.dropdown-menu-right {
+    right: auto;
+    left: -5px;
+}
+.dropdown-menu.dropdown-caret-right.dropdown-caret:before,
+.dropdown-menu.dropdown-menu-right.dropdown-caret:before {
+    right: auto;
+    left: 9px;
+}
+.dropdown-menu.dropdown-caret-right.dropdown-caret:after,
+.dropdown-menu.dropdown-menu-right.dropdown-caret:after {
+    right: auto;
+    left: 10px;
+}
+.chosen-container,
+.chosen-container+.help-inline,
+[class*=chosen-container] {
+    vertical-align: middle;
+    margin-bottom: 15px;
+}
+.padding-35 {
+    padding: 35px 0;
+}
+.pagination {
+    margin-right: 0 !important;
+}
+select.form-control {
+    padding: 0 6px;
+}
+.item-container-tb tr td input:disabled{
+    background-color: transparent !important;
+    border: 0;
+    cursor: default;
+}
+
+.autocomplete-input{
+    position: relative;
+}
+.autocomplete{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 21.5%;
+    box-shadow: 0px 1px 9px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+#auto-ul {
+    list-style: none;
+    margin: 0;
+}
+#auto-ul li {
+    padding: 6px 12px;
+    cursor: pointer;
+}
+#auto-ul li:hover {
+    background-color: #f1eded;
+}
+.rtl .gritter-with-image, .rtl .gritter-without-image {
+    float: right;
+}
+
+.circle {
+    overflow: hidden;
+    width: 128px;
+    height: 128px;
+    border: 5px solid rgba(247, 247, 247, 0.7);
+    border-radius: 50%;
+}
+.profile-pic {
+    max-width: 200px;
+    max-height: 200px;
+    display: block;
+    position: relative;
+}
+.label-upload {
+    bottom: 0;
+    position: absolute;
+    left: 35%;
+    cursor: pointer;
+    font-size: 1.4em;
+    color: #666666;
+}
+
+.archive-search-table tr td {
+    vertical-align: middle !important;
+}
+
+
+@media print {
+    #print-bill {
+        height: 297mm;
+        min-height: 297mm;
+    }
+}
+
+.archive-search-table {
+    position: relative;
+}
+
+.load {
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    visibility: hidden;
+}
+.load i{
+    color: #fff;
+
+}
